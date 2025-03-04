@@ -1,0 +1,1428 @@
+Package: libecpg-compat3
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: libc6 (>= 2.40+git0+efb710034e), libecpg6 (>= 16.5), libpgtypes3 (>= 16.5), libpq5 (>= 16.5)
+Provides: libecpg-compat
+Filename: cortexa7hf-neon-vfpv4/libecpg-compat3_16.5-r0_armhf.deb
+Size: 6196
+MD5sum: 3543278528091e424c12741370c122ae
+SHA1: 1b28e08f0166e5754151464c0a547113b22f3ba8
+SHA256: bbbe3d3be9aa370102ed3def5b98c7e22544a476fb886b89f94672905d48fecc
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system.
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: libecpg-dev
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: libecpg, libecpg-compat, libpgtypes
+Recommends: base-files-dev, base-passwd-dev, glibc-dev, icu-dev, libnsl2-dev, libpgtypes-dev, libpq-dev, libxml2-dev, openssl-dev, perl-dev, python3-dev, readline-dev, shadow-dev, shadow-sysroot-dev, systemd-dev, util-linux-dev, zlib-dev
+Filename: cortexa7hf-neon-vfpv4/libecpg-dev_16.5-r0_armhf.deb
+Size: 8180
+MD5sum: 11b9e89758ffb0b1f06d1ead0d6b86e2
+SHA1: 394782b44f04a3a295e19be462596501312e195d
+SHA256: 15f49fa9e237edb78fbb6c57bbe4630dca61440a8d8a273db72a0b4bd3fcaf28
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system.
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: libecpg-staticdev
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: libecpg-dev (= 16.5-r0)
+Filename: cortexa7hf-neon-vfpv4/libecpg-staticdev_16.5-r0_armhf.deb
+Size: 133196
+MD5sum: df04ff0f898561c5909b4909d3354fd8
+SHA1: beea7d13ba47db61bb705c22c2b7da4f1de01d7a
+SHA256: 74c707630e404775ed1a63776d8fd88b7ae5bbdf9861c418ff3af7d57ba82f76
+Section: devel
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system.
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: libecpg6
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: libc6 (>= 2.40+git0+efb710034e), libpgtypes3 (>= 16.5), libpq5 (>= 16.5)
+Provides: libecpg
+Filename: cortexa7hf-neon-vfpv4/libecpg6_16.5-r0_armhf.deb
+Size: 32236
+MD5sum: d1f3de8329ba8704a27a6d17dd9b47c5
+SHA1: 599346f41320fea9b05f23a22e3f4a5678b7b093
+SHA256: 2809d126b5db9e5a00324b268d22963b5b25551cd22143e067e5cf142f2b6659
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system.
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: libpgtypes-staticdev
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Filename: cortexa7hf-neon-vfpv4/libpgtypes-staticdev_16.5-r0_armhf.deb
+Size: 92776
+MD5sum: 2e2c8afda9f4ccc23ecc52d1af570bd3
+SHA1: 0b732db735acf75d46e1c23de18c42f7c2738462
+SHA256: 100a2f1b6c5cb196e8b333676f1250c167350a3a1ee8b95acb27e8ac7e122c07
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system.
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: libpgtypes3
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: libc6 (>= 2.40+git0+efb710034e)
+Provides: libpgtypes
+Filename: cortexa7hf-neon-vfpv4/libpgtypes3_16.5-r0_armhf.deb
+Size: 31760
+MD5sum: 552f10a6c33a78be110af5d72f83624b
+SHA1: e7500b199f849c3e6ff894a19e5d3fcb2b108fa8
+SHA256: c29747accfc3c3b6d850fb95098f7acb9cabeeec6b6aad07b4fc658ec56890c9
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system.
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: libpq-dev
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: libpq
+Recommends: base-files-dev, base-passwd-dev, glibc-dev, icu-dev, libcrypto-dev, libnsl2-dev, libssl-dev, libxml2-dev, openssl-dev, perl-dev, python3-dev, readline-dev, shadow-dev, shadow-sysroot-dev, systemd-dev, util-linux-dev, zlib-dev
+Filename: cortexa7hf-neon-vfpv4/libpq-dev_16.5-r0_armhf.deb
+Size: 51708
+MD5sum: 36531a6f1de874464bcad9a9bf0a8391
+SHA1: f5c3a38bb8f7f4d454636ff78e1d8013976fbb5f
+SHA256: 9a3f4301f75a571b341d4cb30682fc765008c7b0f01e9aee328ea3cfe4b3408d
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system.
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: libpq-staticdev
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: libpq-dev (= 16.5-r0)
+Filename: cortexa7hf-neon-vfpv4/libpq-staticdev_16.5-r0_armhf.deb
+Size: 370340
+MD5sum: 89286e4da080d4f0e8e1297b91db5d8f
+SHA1: d32009d01215b9cd9164632076984cf0eed523c6
+SHA256: 6814182d6ece3016a4b3a8125362740d8def72387a46cb1628329f0fddb22f81
+Section: devel
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system.
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: libpq5
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: libc6 (>= 2.40+git0+efb710034e), libcrypto3 (>= 3.4.0), libssl3 (>= 3.4.0)
+Provides: libpq
+Filename: cortexa7hf-neon-vfpv4/libpq5_16.5-r0_armhf.deb
+Size: 91884
+MD5sum: ad50d9fa766b12cb9853da73afe30d3d
+SHA1: bb695968377cdc74552cb38c2b729384d75b6ffc
+SHA256: 5469322d8c7234c01eb30d7bc63de6f22c7e04eb717739aea3c1d88074b91767
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system.
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: base-files, base-passwd, icu, libc6 (>= 2.40+git0+efb710034e), libcrypto3 (>= 3.4.0), libicui18n76 (>= 76-1), libicuuc76 (>= 76-1), libpq5 (>= 16.5), libpython3.13-1.0 (>= 3.13.1), libssl3 (>= 3.4.0), libsystemd0 (>= 257.1), libxml2 (>= 2.13.5), libz1 (>= 1.3.1), perl (>= 5.40.0), postgresql-timezone, python3, shadow
+Filename: cortexa7hf-neon-vfpv4/postgresql_16.5-r0_armhf.deb
+Size: 3892072
+MD5sum: 8df18d1e5e01ed457e2e1107831220ac
+SHA1: 4e9ad80382665749168debdc82c3ef3bd827b58d
+SHA256: a8c96996336993c97da68495a644f1ca1beff6fc460906b089d8c0f3fde9971a
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system.
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-client
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: libc6 (>= 2.40+git0+efb710034e), libpq5 (>= 16.5), libreadline8 (>= 8.2.13), libz1 (>= 1.3.1)
+Filename: cortexa7hf-neon-vfpv4/postgresql-client_16.5-r0_armhf.deb
+Size: 388752
+MD5sum: 4d7de2aefbea1670b6cc4b4f4422602a
+SHA1: bf604c5e3292498acb67eb69384511b697dc3b2a
+SHA256: 15e41a9226beac949cc13a704c26122b9026b2795614331ea356c499d1d1d7fe
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system.
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-contrib
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: libc6 (>= 2.40+git0+efb710034e), libcrypto3 (>= 3.4.0), libpq5 (>= 16.5), libuuid1 (>= 2.40.2), libxml2 (>= 2.13.5), libz1 (>= 1.3.1)
+Filename: cortexa7hf-neon-vfpv4/postgresql-contrib_16.5-r0_armhf.deb
+Size: 316840
+MD5sum: 73bd81d83076f87fd2c07d2701208aef
+SHA1: 58ab9e098c1b07fada3e2a1e20283d93af35136b
+SHA256: 2b15aab5a4cdfceda18d48d787dfba18e331a79d6df0a05f85f81a654e98753a
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system.
+ The postgresql-contrib package contains     contributed packages that are
+ included in the PostgreSQL distribution.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-dbg
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: glibc-dbg, libcrypto-dbg, libecpg-dbg, libicui18n-dbg, libicuuc-dbg, libpgtypes-dbg, libpq-dbg, libpython3-dbg, libssl-dbg, libsystemd-dbg, libxml2-dbg, openssl-dbg, perl-dbg, readline-dbg, util-linux-libuuid-dbg, zlib-dbg
+Provides: libecpg-compat-dbg, libecpg-dbg, libpgtypes-dbg, libpq-dbg, postgresql-contrib-dbg, postgresql-plperl-dbg, postgresql-plpython-dbg, postgresql-pltcl-dbg
+Filename: cortexa7hf-neon-vfpv4/postgresql-dbg_16.5-r0_armhf.deb
+Size: 15610008
+MD5sum: 7fba4871bde1d42c0d9da047985ee30e
+SHA1: 6b87b66cbdbafc47a63c49dd5baea2b681afa54f
+SHA256: 896b369d9aa443ba5755c688f9bb4e728fba7b4e82eff4a00a0df6dce8cbdf18
+Section: devel
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - Debugging files
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains ELF symbols and related sources for debugging purposes.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-dev
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: openssl-dev
+Recommends: base-files-dev, base-passwd-dev, glibc-dev, icu-dev, libcrypto-dev, libicui18n-dev, libicuuc-dev, libnsl2-dev, libpq-dev, libpython3-dev, libssl-dev, libsystemd-dev, libxml2-dev, openssl-dev, perl-dev, postgresql (= 16.5-r0), postgresql-timezone-dev, python3-dev, readline-dev, shadow-dev, shadow-sysroot-dev, systemd-dev, util-linux-dev, zlib-dev
+Filename: cortexa7hf-neon-vfpv4/postgresql-dev_16.5-r0_armhf.deb
+Size: 1856
+MD5sum: 6429ae8eded0623444b5768a893cdc15
+SHA1: f8e3bc61d4aee9c85bad5a9eb30222bdf339d2fa
+SHA256: acac311f19c16f730dc90516a8128fb78cd1d2c29d377642e22f75e4a7bba2ea
+Section: devel
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - Development files
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-doc
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Filename: cortexa7hf-neon-vfpv4/postgresql-doc_16.5-r0_armhf.deb
+Size: 3156
+MD5sum: e9000365b4aa7d7cb2932510be066ff0
+SHA1: cbc6c4a2a945af0686ad418c0a12f75858435e77
+SHA256: e89a8948c9930fd6a7aea689283b0a5d07c7e0f39d35a516558ad42e5fa8dfa8
+Section: doc
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - Documentation files
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains documentation.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-cs
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-cs
+Provides: cs-translation, postgresql-locale
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-cs_16.5-r0_armhf.deb
+Size: 112492
+MD5sum: 3d87dee6b97450fc38c715327e2c30e4
+SHA1: 03fd015233bd747c6af10166091b294fed104165
+SHA256: eda0f320eab010b199fdc2da588dda7358725011ad20899de5e6d5938f02ac95
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - cs translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the cs locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-de
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-de
+Provides: de-translation, postgresql-locale
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-de_16.5-r0_armhf.deb
+Size: 284288
+MD5sum: 2fc246ddb706185453261c78be30c645
+SHA1: 0e7adaf98f4d816f7c9dbc0921fb6704919350ef
+SHA256: 3f2b9d2f78c5c65e76e8defe97155a2aac8230b13dc7d26553f1666072074ee6
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - de translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the de locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-el
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-el
+Provides: el-translation, postgresql-locale
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-el_16.5-r0_armhf.deb
+Size: 122860
+MD5sum: 1bf780b0b82ff40d57a37fea4d476f08
+SHA1: 68c1ec2196ae53e26f704a721ed2ef01eab50a06
+SHA256: c1dd2ecae16b81441b74c94dc97240c6f22720f2d1652511380cc5affcd146df
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - el translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the el locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-es
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-es
+Provides: es-translation, postgresql-locale
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-es_16.5-r0_armhf.deb
+Size: 284104
+MD5sum: 761d72ee2d473b871fc29f9c21ab6802
+SHA1: 611e1c7e09131ac4aa8b67db65c32a88de1281b1
+SHA256: 8e10038fa6331a268bf48232743b164f796554c68b4c156f396d880fd5bfe43a
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - es translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the es locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-fr
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-fr
+Provides: fr-translation, postgresql-locale
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-fr_16.5-r0_armhf.deb
+Size: 271408
+MD5sum: 78b659dab07bf3223b1141efd3be9877
+SHA1: ed2da4acea460bb2a850694548f012ef813a30f4
+SHA256: 98ca04fb4067236b5e96287035bdc558d4fe46cd1f18bcdd700ad21d58492c38
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - fr translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the fr locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-he
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-he
+Provides: he-translation, postgresql-locale
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-he_16.5-r0_armhf.deb
+Size: 71144
+MD5sum: 59c4a7681c02b0a2ec5f5e9cc35fc85e
+SHA1: 4a98e843cba8abe480d095de7efb9948d437b5d0
+SHA256: 1e25a78eb77f6e16e26967ccca5cb65bbe6c14da3ca977a789c8a5cc449e5c82
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - he translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the he locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-id
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-id
+Provides: id-translation, postgresql-locale
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-id_16.5-r0_armhf.deb
+Size: 110376
+MD5sum: a200c53dc31597cb3afeaaa5ac486121
+SHA1: df9888b77fef257d0ae093608b0a382234c28b65
+SHA256: 798dc98c7e97b235661a17c001e5088bc0fac4774d2ea07b4100cc1a162a940a
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - id translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the id locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-it
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-it
+Provides: it-translation, postgresql-locale
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-it_16.5-r0_armhf.deb
+Size: 267840
+MD5sum: 59331e325f8943a1e3f59ec98f569fac
+SHA1: c21dd111b7e819b4f5ad46b2ad15d7c99981f009
+SHA256: f2b9563d49e55dde9cb9f5327b9f4a6106aa1355c8d693786027894a9755f37e
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - it translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the it locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-ja
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-ja
+Provides: ja-translation, postgresql-locale
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-ja_16.5-r0_armhf.deb
+Size: 291912
+MD5sum: c8eb5f4ffca156cead0d89d2d29a16de
+SHA1: 4d2521b530e0f12274d8a21d951ec8b9819a1b68
+SHA256: 4586dceb0a53722bd2cbeaed1b524f0c8531816c8a5ceef26f119dd9ff33dbf0
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - ja translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the ja locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-ka
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-ka
+Provides: ka-translation, postgresql-locale
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-ka_16.5-r0_armhf.deb
+Size: 259928
+MD5sum: a8029daacd1139aa7d832435c9aa05d9
+SHA1: 305f6a5483c29b760fcac660c09f9392f786af7a
+SHA256: d0f3710044d79c80580cc3320e0ece9305dc627f231c22d4457626147e421bc5
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - ka translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the ka locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-ko
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-ko
+Provides: ko-translation, postgresql-locale
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-ko_16.5-r0_armhf.deb
+Size: 288668
+MD5sum: 75f72e39a6666ceca10556dd46cc61aa
+SHA1: 22462f6fa4a0c7b4260bd8a1fff40e562b3627ab
+SHA256: 12666f066140db016cd2c5bbfdc93cf6936cb8e9b45ed243e22e48e19af8a250
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - ko translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the ko locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-nb
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-nb
+Provides: nb-translation, postgresql-locale
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-nb_16.5-r0_armhf.deb
+Size: 3300
+MD5sum: c5495c8f9429086f9e27b488c8bf9dd2
+SHA1: 858fd9334e2d5d305ee2c5fb2a3e3a7e1f430cba
+SHA256: 98ca1770626e0662b0b1dfa4a76a880d4bd733ce2d5f14db9c595ef5acb7720f
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - nb translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the nb locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-pl
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-pl
+Provides: pl-translation, postgresql-locale
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-pl_16.5-r0_armhf.deb
+Size: 221916
+MD5sum: 71797d210c0112c5f88489a1e1ffad13
+SHA1: 10b5326663008b9da9059daf4f27ed502c590731
+SHA256: 4ded9faee0212f329bd58d3b86235e7c71539a270395816354951b48a60bc29e
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - pl translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the pl locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-pt-br
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-pt-br
+Provides: postgresql-locale, pt-br-translation
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-pt-br_16.5-r0_armhf.deb
+Size: 262656
+MD5sum: 6868274c6a851db180275734da3838c0
+SHA1: 16c7ae7ad76e6170096aa4d4de11f93af8e0927d
+SHA256: cae596a5d65b68758c31fbfcdf752f78c43df4106f32139ae069eb425fd5841d
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - pt_BR translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the pt_BR locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-ro
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-ro
+Provides: postgresql-locale, ro-translation
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-ro_16.5-r0_armhf.deb
+Size: 9600
+MD5sum: 5a2add0c2d2e1346630c03652f934dac
+SHA1: cb5a72209e418acfaaa4c899a267e7fc57424492
+SHA256: d5ee4f4a19734032bb696667b26e6618dd874274b8b3d0c1c653e66757e5a9d0
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - ro translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the ro locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-ru
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-ru
+Provides: postgresql-locale, ru-translation
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-ru_16.5-r0_armhf.deb
+Size: 302888
+MD5sum: 9a5b886a7f5de3340a8d7b6d1e98ff9f
+SHA1: 90c55cf1e2b0e29e771118f704b23c8990463855
+SHA256: 0d2850e5eb2ae422fefdf84dd7fd6c06ddf05970a02a9d8e775e47a5fcd8771c
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - ru translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the ru locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-sv
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-sv
+Provides: postgresql-locale, sv-translation
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-sv_16.5-r0_armhf.deb
+Size: 277856
+MD5sum: 927317673d857db24d2926a9f4fa02c6
+SHA1: f034a03f2cad602acad845c96ab9ed221754acf3
+SHA256: c9b0dbc1d1e1f7cb0e1bccef32f4634d51161aafe9d45639c233aa19ed1cb162
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - sv translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the sv locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-ta
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-ta
+Provides: postgresql-locale, ta-translation
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-ta_16.5-r0_armhf.deb
+Size: 3792
+MD5sum: beb1e006cfee4916e7c110ee293047bc
+SHA1: b7aa5ab26b5e1a8510b6b76f9992d8f31e802a25
+SHA256: dce8865897bdf0df8358ad1be42354602980eb8cfe5c7c00ca79f708cd1bee47
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - ta translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the ta locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-tr
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-tr
+Provides: postgresql-locale, tr-translation
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-tr_16.5-r0_armhf.deb
+Size: 232192
+MD5sum: 05a3cf2170f136442ecb1d6571993b6b
+SHA1: ab67bb934e4e0a8c2c2b5ca4035fc8d0b6643b67
+SHA256: be83783b95f9b62021c08dfec177747c5ca3dc2f123ebde444d8552dbeebd028
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - tr translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the tr locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-uk
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-uk
+Provides: postgresql-locale, uk-translation
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-uk_16.5-r0_armhf.deb
+Size: 302368
+MD5sum: aaa680a6305a2f6710e2ead9c21de859
+SHA1: 509cb049944ec0a83183059697a6e138c7cedec1
+SHA256: 5c3d6391b4cf306ca1a7ceb0c39c7c4ad87574e52810e37f51546a4b85671b70
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - uk translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the uk locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-vi
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-vi
+Provides: postgresql-locale, vi-translation
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-vi_16.5-r0_armhf.deb
+Size: 36780
+MD5sum: 3296eba12197d65c7ee43b81cd26f50b
+SHA1: c8fdf1e56019de51e00a65d2bf0b2acfe08d43e5
+SHA256: 27d22160c1511c921a737ea99133b994b9741d5cd9c356d61b257bc7603cfd60
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - vi translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the vi locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-zh-cn
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-zh-cn
+Provides: postgresql-locale, zh-cn-translation
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-zh-cn_16.5-r0_armhf.deb
+Size: 257012
+MD5sum: 8b76b3785bfcf495b9a6033698d14d95
+SHA1: 8d2768829d57a75a35d41b86c2e9ad3c7c81b35c
+SHA256: 765859aff2edc48e637567ec0ed77ec86cda3ef3880fa9d082cf52fc14bb515e
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - zh_CN translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the zh_CN locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-locale-zh-tw
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Recommends: virtual-locale-zh-tw
+Provides: postgresql-locale, zh-tw-translation
+Filename: cortexa7hf-neon-vfpv4/postgresql-locale-zh-tw_16.5-r0_armhf.deb
+Size: 111120
+MD5sum: b488c4ff3ada6daef192926d744dd6fe
+SHA1: 8d0ad85028d85d402642d1c2a3b07f99d3be9444
+SHA256: e0640a7e734e8b43257dc392c86a4ed4e1c34da4db5c46cb315a63c99e28fce3
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - zh_TW translations
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains language translation files for the zh_TW locale.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-plperl
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: libc6 (>= 2.40+git0+efb710034e), perl (>= 5.40.0)
+Filename: cortexa7hf-neon-vfpv4/postgresql-plperl_16.5-r0_armhf.deb
+Size: 27248
+MD5sum: 44bcb3c70afaeda87af10e0bcc573c52
+SHA1: c8e7a7cb44363f4f358fe94f52791824e2140971
+SHA256: 3df862a787a01795608245fe025da882078d9194b239a7dbfbee9da16326c42f
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: The Perl procedural language for PostgreSQL
+ PostgreSQL is an advanced Object-Relational     database management
+ system.  The postgresql-plperl package contains the     PL/Perl
+ procedural language for the backend.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-plpython
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: libc6 (>= 2.40+git0+efb710034e), libpython3.13-1.0 (>= 3.13.1)
+Filename: cortexa7hf-neon-vfpv4/postgresql-plpython_16.5-r0_armhf.deb
+Size: 33556
+MD5sum: 42df669bf8369c27aca85382019cef92
+SHA1: a58f810b0f37ca5da1647ed2d9a945f34443ac75
+SHA256: 4b959525880a5a080945d975b2e928b84561e3523c04a08e7c133524a17d3749
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: The Python procedural language for PostgreSQL
+ PostgreSQL is an advanced Object-Relational     database management
+ system.  The postgresql-plpython package contains     the PL/Python
+ procedural language for the backend.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-server-dev
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: libc6 (>= 2.40+git0+efb710034e), libpq5 (>= 16.5)
+Recommends: base-files-dev, base-passwd-dev, icu-dev, libnsl2-dev, libxml2-dev, openssl-dev, perl-dev, python3-dev, readline-dev, shadow-dev, shadow-sysroot-dev, systemd-dev, util-linux-dev, zlib-dev
+Filename: cortexa7hf-neon-vfpv4/postgresql-server-dev_16.5-r0_armhf.deb
+Size: 1053680
+MD5sum: 65b5ef065ed5b1e877ff10db0f7ec6fc
+SHA1: 81b19423b28d21096db31225059c9f2d22d17b77
+SHA256: 30de356e24c5dadd3069881d9976f8a28d08316e7298da0ad8513552d8503509
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system.
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-src
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Filename: cortexa7hf-neon-vfpv4/postgresql-src_16.5-r0_armhf.deb
+Size: 8914784
+MD5sum: 798cce7b9ed612e34910e114b19f6bee
+SHA1: 72876cb01731e78a5fb33d9f9d51287daa79b33a
+SHA256: 8b32a3d47e2ed5bd658cab78309f5278027e4adbf37022fc6cfc6156631d3bd0
+Section: devel
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - Source files
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains sources for debugging purposes.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-staticdev
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Depends: postgresql-dev (= 16.5-r0)
+Filename: cortexa7hf-neon-vfpv4/postgresql-staticdev_16.5-r0_armhf.deb
+Size: 474096
+MD5sum: 3f8dca991e0839bf31165646c560b074
+SHA1: 0cf4c85fd6f2b9f9bb331bcdd4b798f0be1707b6
+SHA256: 4e62f222db86d49721d676c153526b62680fb33f860ff103c7111dd87e6f5fac
+Section: devel
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system. - Development files (Static Libraries)
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.   This package
+ contains static libraries for software development.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
+Package: postgresql-timezone
+Version: 16.5-r0
+Architecture: armhf
+Maintainer: Poky Maintainers <poky@lists.yoctoproject.org>
+Filename: cortexa7hf-neon-vfpv4/postgresql-timezone_16.5-r0_armhf.deb
+Size: 51804
+MD5sum: f6eb1bebd0c53772318344ca622708e3
+SHA1: 1f7fa92c80b33657b6b29485637efb0bf6a931dc
+SHA256: abb2ecf149b51763aba055d137936f2fcc71fa1b82d3c47f877ee91b5ddfd3eb
+Section: base
+Priority: optional
+Homepage: http://www.postgresql.com
+Description: PostgreSQL is a powerful, open source relational database system.
+ PostgreSQL is an advanced Object-Relational database management system
+ (DBMS) that supports almost all SQL constructs (including
+ transactions, subselects and user-defined types and functions). The
+ postgresql package includes the client programs and libraries that
+ you'll need to access a PostgreSQL DBMS server.  These PostgreSQL
+ client programs are programs that directly manipulate the internal
+ structure of PostgreSQL databases on a PostgreSQL server. These client
+ programs can be located on the same machine with the PostgreSQL
+ server, or may be on a remote machine which accesses a PostgreSQL
+ server over a network connection. This package contains the docs     in
+ HTML for the whole package, as well as command-line utilities for
+ managing PostgreSQL databases on a PostgreSQL server.         If you want
+ to manipulate a PostgreSQL database on a local or remote     PostgreSQL
+ server, you need this package. You also need to install     this package
+ if you're installing the postgresql-server package.
+Oe: postgresql
+Packagearch: cortexa7hf-neon-vfpv4
+
